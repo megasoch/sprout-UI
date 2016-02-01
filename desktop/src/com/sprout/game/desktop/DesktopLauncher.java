@@ -5,8 +5,10 @@ import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.sprout.game.SproutGame;
 
+import java.io.IOException;
+
 public class DesktopLauncher {
-	public static void main (String[] arg) {
+	public static void main (String[] arg) throws IOException {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		config.width = 650;
 		config.height = 600;
